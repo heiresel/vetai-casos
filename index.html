@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vet-AI Casos — Trilogía del Hurón</title>
+<style>
+  :root { --bg:#0b0f0d; --card:#141a17; --text:#e8efe9; --muted:#9fb0a4; --accent:#00ff88; }
+  @media (prefers-color-scheme: light) {
+    :root { --bg:#f4f7f5; --card:#ffffff; --text:#14201a; --muted:#56655b; --accent:#00a35c; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:960px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { font-size:26px; margin:0 0 4px; }
+  .sub { color:var(--muted); margin:0 0 28px; }
+  h2 { font-size:18px; margin:36px 0 12px; color:var(--accent); }
+  .grid { display:grid; gap:20px; grid-template-columns:1fr; }
+  @media (min-width:720px) { .grid.parts { grid-template-columns:repeat(3,1fr); } }
+  .card { background:var(--card); border-radius:14px; padding:14px; }
+  .featured { display:grid; gap:18px; grid-template-columns:1fr; }
+  @media (min-width:720px) { .featured { grid-template-columns:320px 1fr; } }
+  video { width:100%; border-radius:10px; background:#000; display:block; }
+  .badge { display:inline-block; font-size:12px; font-weight:700; padding:4px 10px; border-radius:999px; background:var(--accent); color:#06140c; margin-bottom:10px; }
+  .title { font-weight:700; font-size:16px; margin:0 0 6px; }
+  .desc { color:var(--muted); font-size:14px; line-height:1.5; margin:0 0 10px; }
+  .caption { font-size:14px; line-height:1.5; background:rgba(127,127,127,.12); border-radius:8px; padding:10px; white-space:pre-wrap; }
+  .dur { color:var(--muted); font-size:12px; margin-top:6px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Vet-AI Casos</h1>
+  <p class="sub">Trilogía del Hurón ladrón de medias</p>
+
+  <section class="card featured">
+    <div>
+      <video controls playsinline preload="metadata" src="videos/episodio-completo.mp4"></video>
+    </div>
+    <div>
+      <span class="badge">EPISODIO COMPLETO</span>
+      <p class="title">El Hurón ladrón de medias — episodio completo</p>
+      <p class="desc">El detective Vet-AI localiza al hurón, el axolote cyborg confisca la media y cierra con el diagnóstico.</p>
+      <div class="caption">Objetivo localizado 🕵️‍♂️ El detective Vet-AI atrapó al ladrón de medias. Y el final no te lo esperás. #vetai #ferret #español</div>
+      <p class="dur">30 segundos · 720×1280 · las 3 partes unidas</p>
+    </div>
+  </section>
+
+  <h2>Las 3 partes</h2>
+  <div class="grid parts">
+    <section class="card">
+      <span class="badge">P1 · TARGET LOCKED</span>
+      <video controls playsinline preload="metadata" src="videos/parte1.mp4"></video>
+      <p class="title">Parte 1 — Objetivo localizado</p>
+      <p class="desc">Hurón corriendo con media rosa rayas, axolote cyborg escanea con rayo verde.</p>
+      <div class="caption">Objetivo localizado 🕵️‍♂️ El detective Vet-AI atrapó al ladrón de medias #vetai #ferret #español</div>
+      <p class="dur">10 segundos</p>
+    </section>
+    <section class="card">
+      <span class="badge">P2 · COMEDIA</span>
+      <video controls playsinline preload="metadata" src="videos/parte2.mp4"></video>
+      <p class="title">Parte 2 — La confiscación</p>
+      <p class="desc">Axolote saca pinza robótica, confisca la media y dice "Evidencia confiscada. Bueno... quedátela. Pero la próxima, controlalo con Vet-AI."</p>
+      <div class="caption">Evidencia confiscada 😂 #vetai #huron</div>
+      <p class="dur">10 segundos</p>
+    </section>
+    <section class="card">
+      <span class="badge">P3 · CTA</span>
+      <video controls playsinline preload="metadata" src="videos/parte3.mp4"></video>
+      <p class="title">Parte 3 — Diagnóstico completo</p>
+      <p class="desc">CTA visible en pantalla "DIAGNÓSTICO COMPLETO" + "Vet-AI, gratis en Google Play".</p>
+      <div class="caption">Diagnóstico Completo ✅ Vet-AI gratis en Google Play #vetaiapp #cta</div>
+      <p class="dur">10 segundos</p>
+    </section>
+  </div>
+</main>
+</body>
+</html>
